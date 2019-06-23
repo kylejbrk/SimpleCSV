@@ -347,9 +347,3 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
-
-# VB Settings
-Settings.vb
-App.config
-Settings.Designer.vb
-Settings.settings
