@@ -1,0 +1,3 @@
+﻿1>------ Rebuild All started: Project: CSVconverter, Configuration: Debug Any CPU ------
+1>  CSVconverter -> C:\Users\kBurke2\Documents\Visual Studio Projects\source\repos\VB Apps\CSVconverter\CSVconverter\bin\Debug\SimpleCSV.exe
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
