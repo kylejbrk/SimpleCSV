@@ -350,3 +350,6 @@ MigrationBackup/
 
 # VB Settings
 Settings.vb
+App.config
+Settings.Designer.vb
+Settings.settings
