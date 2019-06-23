@@ -282,10 +282,10 @@ Partial Class Main
         Me.LinkLabel2.Location = New System.Drawing.Point(8, 484)
         Me.LinkLabel2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(134, 13)
+        Me.LinkLabel2.Size = New System.Drawing.Size(40, 13)
         Me.LinkLabel2.TabIndex = 1
         Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "SimpleCSV Documentation"
+        Me.LinkLabel2.Text = "GitHub"
         '
         'Main
         '
