@@ -2,13 +2,13 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ProdConnection" Type="System.String" Scope="User">
+    <Setting Name="ProdConnection" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Server=localhost\SQLEXPRESS;Database=BluthCompany;Trusted_Connection=True;</Value>
     </Setting>
-    <Setting Name="DevConnection" Type="System.String" Scope="User">
+    <Setting Name="DevConnection" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Server=localhost\SQLEXPRESS;Database=BluthCompany;Trusted_Connection=True;</Value>
     </Setting>
-    <Setting Name="DevPassword" Type="System.String" Scope="User">
+    <Setting Name="DevPassword" Type="System.String" Scope="Application">
       <Value Profile="(Default)">password</Value>
     </Setting>
   </Settings>

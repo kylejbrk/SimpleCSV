@@ -53,40 +53,31 @@ Partial Friend NotInheritable Class Settings
         End Get
     End Property
     
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("Server=localhost\SQLEXPRESS;Database=BluthCompany;Trusted_Connection=True;")>  _
-    Public Property ProdConnection() As String
+    Public ReadOnly Property ProdConnection() As String
         Get
             Return CType(Me("ProdConnection"),String)
         End Get
-        Set
-            Me("ProdConnection") = value
-        End Set
     End Property
     
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("Server=localhost\SQLEXPRESS;Database=BluthCompany;Trusted_Connection=True;")>  _
-    Public Property DevConnection() As String
+    Public ReadOnly Property DevConnection() As String
         Get
             Return CType(Me("DevConnection"),String)
         End Get
-        Set
-            Me("DevConnection") = value
-        End Set
     End Property
     
-    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Configuration.DefaultSettingValueAttribute("password")>  _
-    Public Property DevPassword() As String
+    Public ReadOnly Property DevPassword() As String
         Get
             Return CType(Me("DevPassword"),String)
         End Get
-        Set
-            Me("DevPassword") = value
-        End Set
     End Property
 End Class
 
