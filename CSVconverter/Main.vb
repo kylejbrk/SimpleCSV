@@ -5,21 +5,15 @@ Imports System.Text
 Imports System.Text.RegularExpressions
 
 Public Class Main
-    Dim fp As String
-    Dim fn As String
-    Dim dt As DataTable = New DataTable()
-    Dim dtH As DataTable = New DataTable()
-    Dim dtCount As Integer
-    Dim dtS As DataTable = New DataTable()
-    Dim rowMax As Integer = 99
-    Dim columnNames As New List(Of String)()
-    Public ProjectName_ID As String
-    Public Connection As String = My.Settings.ProdConnection
-    Dim SqlTableResult As String
-    Dim FileErrMsg As String
-    Public devStatus As Integer = 0
-    Dim SQLtblFN As New List(Of String)()
-    Dim SQLtblSP As New List(Of String)()
+    Public Connection As String = My.Settings.ProdConnection,
+        ProjectName_ID As String,
+        devStatus As Integer = 0
+    Dim fp, fn, SqlTableResult, FileErrMsg As String
+    Dim dt As DataTable = New DataTable(),
+        dtH As DataTable = New DataTable(),
+        dtS As DataTable = New DataTable()
+    Dim dtCount As Integer, rowMax As Integer = 99
+    Dim columnNames, SQLtblFN, SQLtblSP As New List(Of String)()
 
     Public Sub Main_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ComboBox1.Items.Clear()
